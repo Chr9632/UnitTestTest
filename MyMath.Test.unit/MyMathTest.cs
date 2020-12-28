@@ -26,5 +26,12 @@ namespace MyMath.Test.unit
             var result = math.Add1(64, 36);
             Assert.That(result, Is.EqualTo(100));
         }
+
+        public void Add2()
+        {
+            var math = new UnitTestAnotherDemo.MyMath();
+            var result = math.Add1(24, 36);
+            Assert.That(result, Is.EqualTo(60));
+        }
     }
 }
